@@ -1,0 +1,206 @@
+body {
+	background-image: url('bg2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.content {
+	width: 90%;
+	margin: 10px auto;
+}
+
+/*header*/
+header {
+	background-color: white;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+header h1.judul {
+	text-align: left;
+}
+
+/*menu navigasi*/
+.menu {
+	background-color: #000000;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+div.menu ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+}
+
+
+div.menu ul li {
+	float: left;
+	text-transform: none;
+}
+
+div.menu ul li a {
+	display: block;
+	padding: 0 20px;
+	text-decoration: none;
+	color: #f0f0f0;
+	font-family: sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {
+	cursor: pointer;
+	color: royalblue;
+}
+
+
+div.badan {
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+div.pages {
+	text-align: center;
+	padding: 30px 20px;
+}
+
+.r {
+
+	text-align: right;
+	margin-right: 4%;
+
+}
+.l {
+
+	text-align: left;
+	margin-left: 4%;
+
+}
+
+.lbtn {
+	background-color: rgb(15, 184, 15);
+	border: none;
+	color: white;
+	border-radius: 5px;
+	padding: 3px 3px;
+	font-size: 16px;
+	float: left;
+	margin-left: 4%;
+	cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.lbtn:hover {
+	background-color: green;
+}
+
+.rbtn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	padding: 3px 3px;
+	font-size: 16px;
+	float: right;
+	margin-right: 4%;
+	cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.rbtn:hover {
+	background-color: RoyalBlue;
+}
+
+.btn1 {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	padding: 3px 3px;
+	font-size: 16px;
+	margin-right: 4px;
+	margin-left: 4px;
+	float: right;
+	cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+	background-color: RoyalBlue;
+}
+
+.btn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	padding: 2px 3px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+	background-color: RoyalBlue;
+}
+
+.ebtn {
+	border: none;
+	color: orange;
+	border-radius: 5px;
+	padding: 3px 1px;
+	padding-left: 4px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.ebtn:hover {
+	background-color: orangered;
+}
+
+.dbtn {
+	border: none;
+	color: darkred;
+	border-radius: 5px;
+	padding: 3px 3px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.dbtn:hover {
+	background-color: red;
+}
+
+.pbtn {
+	border: none;
+	color: DodgerBlue;
+	border-radius: 5px;
+	padding: 3px 3px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.pbtn:hover {
+	background-color: RoyalBlue;
+}
+
+input[type="text"]{
+	width: 150px;
+	padding-top: 3px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	height: 16px;
+}

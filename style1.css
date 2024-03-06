@@ -1,0 +1,28 @@
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+    margin: 10px auto;
+    width: 92%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td{
+    text-align: left;
+}
+
+th {
+    background-color: DodgerBlue;
+}
+
+input[type=number] {
+    margin: 2px 0;
+    box-sizing: border-box;
+}
